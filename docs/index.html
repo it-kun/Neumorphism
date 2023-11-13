@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neumorphism</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JS -->
+  <script defer src="js/script.js"></script>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<div class="grid"></div>
+<input type="button" class="turnGridBtn" value="Turn off grid background" onclick="turnGridBtn(this)">
+
+<header class="topBar relative">
+	<div class="con">
+		<div class="logo">
+			<div class="logoText">
+				<a href="#">NEUMORPHISM !</a>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="pc">
+	<section class="neumorphismToggle relative">
+	<section class="btnBundle">
+		<input type="button" value="◀ ▶" onclick="widthBtn(this)">
+
+		<input type="button" value="▼" onclick="heightBtn(this)">
+
+	</section>
+
+	<section class="boxBundle">
+		<div class="box box1"></div>
+		<div class="box box2"></div>
+		<div class="box box3"></div>
+		<div class="box box4"></div>
+		<div class="box box5"></div>
+	</section>
+</section>
+
+<section class="whatNeumorphismBox relative">
+	<div class="NeumorphismText">
+		<div class="logo">
+			<input class="TextToggle" type="button" value="What is Neumorphism? ▼" onclick="textBoxHeightToggle(this)">
+		</div>
+		<p>
+			is a design trend that emerged in 2019 and is emerging as an alternative to minimalist design. Neumorphism is a design language that creates a sense of depth and lifelike appearance by using shadows and highlights to distinguish between objects and backgrounds.
+		</p>
+		<br>
+		<p>
+			Neumorphism style has the following characteristics:
+		</p>
+		<br>
+		<ul>
+			<li>
+				Use of shadows and highlights : <br>
+				<p>
+					Neumorphism distinguishes between objects and backgrounds using shadows and highlights rather than color differences. This gives a round and soft impression
+				</p>
+			</li>
+			<li>
+				Simplicity and flexibility : <br>
+				<p>
+					Neumorphism maintains the simplicity of minimalist design, while adding flexibility and depth through the use of shadows and highlights.
+				</p>
+			</li>
+			<li>
+				Tactile experience : <br>
+				<p>
+					Neumorphism provides a tactile experience that makes UI more than just graphics. This increases user immersion.
+				</p>
+			</li>
+		</ul>
+		<br>
+		<p>
+			Neumorphism is applied in a variety of fields. In particular, it is gaining popularity in mobile apps, websites, and UI design.
+		</p>
+		<br>
+		<br>
+		<p> Advantages of Neumorphism:</p>
+		<br>
+		<ul>
+			<li>Visual appeal: <br> Neumorphism catches the user's eye with its three-dimensional and lively design.</li>
+			<li>Usability: <br> Neumorphism has excellent usability with its simple and intuitive design.</li>
+			<li>Appeal: <br> Neumorphism is popular with users because it gives a friendly and comfortable feeling.</li>
+		</ul>
+		<br>
+		<p>Disadvantages of Neumorphism:</p>
+		<br>
+		<ul>
+			<li>Difficulty of implementation:
+				<br> Neumorphism can be difficult to implement because it expresses depth through
+			</li>
+			<li>Restriction on content:
+				<br> Neumorphism can simplify content for a three-dimensional design.
+			</li>
+		</ul>
+		<br>
+		<p>Neumorphism is still a new design trend, so it remains to be seen how it will evolve in the future.
+		</p>
+	</div>
+</section>
+
+<section class="neumorphismBtnsBenner relative">
+	<div class="circleBtn neumorphismBtn">
+		<div class="circleShadow"></div>
+	</div>
+		<div class="squareBtn neumorphismBtn">
+			<div class="SquareShadow"></div>
+		</div>
+</section>
+
+<section class="neumorphismTextBoxBenner relative">
+	<div class="neumorphismTextBox">
+			<input type="text" class="neumorphismText" value="Click here to customize the text" onclick="clickHereBtn(this)">
+	</div>
+
+</section>
+</div>
+<div class="mb">You can enjoy it by pressing <br> the 1.0x button click and selecting 0.5x or 0.25x. <br> ▼ </div>
+
+</body>
+
+</html>
